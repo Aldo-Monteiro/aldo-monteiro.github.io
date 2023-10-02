@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Aldo Monteiro</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Aldo Monteiro</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet"/>
+    <!-- Fim do Google Fonts -->
+    <!-- Inicio do DEV ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Fim do DEV ICONS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+   <main id="container">
+    <aside id="bio-container">
+
+        <h2>Aldo Monteiro</h2>
+        <img id="bio-image" src="img/Aldo.png" alt="Aldo Monteiro">
+        <p>Olá, meu nome é Aldo Monteiro sou desenvolvedor Front-end. </p>
+        <p id="welcome-text">Seja Bem-Vindo!</p>
+        <ul id="social-container">
+            <!-- <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li> -->
+            <li><a href="https://www.linkedin.com/in/joao-monteiro-b01b0390/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/aldo.monteiro.7/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <div id="email-container">
+            <ion-icon name="mail-outline"></ion-icon><a href="joao.aldo32@gmail.com"> joao.aldo32@gmail.com</a>
+        </div>
+    </aside>
+    <section id="about-container">
+        <h1 id="name">Aldo Monteiro</h1>
+        <p id="title"><span class="highlight">Desenvolvedor Front-End</span></p>
+        <p class="description">Sou apaixonado por tecnologia, aprender coisas novas e o melhor ve tudo se encaixando em seu devido lugar como se fosse um quebrar cabeca que aos poucos vai tomando sua forma</p>
+        <a href="https://github.com/Aldo-Monteiro" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+        <h2 id="skills-sections-title">Minhas Skills</h2>
+        <p class="description">Conheca as tecnologias que domino:</p>
+        <div id="skill-container">
+            <div class="skill-box">
+                <p class="skills-title">Front-end</p>
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+            </div>
+
+            <div class="skill-box">
+                <p class="skills-title">Back-end</p>
+                <i class="devicon-php-plain colored"></i>
+                <i class="devicon-nodejs-plain colored"></i>
+            </div>
+
+        </div>
+    </section>
+   </main>
+    <!-- Inicio Script para uso do icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Fim do Script do icons -->
+
+  </body>
 </html>
